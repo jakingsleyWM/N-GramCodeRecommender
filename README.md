@@ -17,7 +17,7 @@ This project was implemented using Python 3.11, with compatibility for macOS and
 
 1) Clone the repository to your workspace
 
-\~ $ git clone https://github.com/
+\~ $ git clone https://github.com/jakingsleyWM/N-GramCodeRecommender
 
 2) Navigate into repository
 
