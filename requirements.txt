@@ -1,0 +1,6 @@
+pandas
+pydriller
+javalang
+gitpython
+pygments
+numpy
