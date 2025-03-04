@@ -47,4 +47,4 @@ The script takes a corpus of Java methods as input and automatically identifies 
 
 **Report**
 
-The assignment report is available in the file AssignmentReport.pdf .
+The assignment report is available in the file GenAI_Report.pdf .
