@@ -1,6 +1,8 @@
 import pandas as pd
 from pydriller import Repository
 import os
+import re
+import javalang
 from javalang.parse import parse
 from javalang.tree import MethodDeclaration
 import git
@@ -159,6 +161,12 @@ def remove_comments_from_dataframe(df: pd.DataFrame, method_column: str, languag
 
     df["Method Code No Comments"] = df[method_column].apply(remove_comments)
     return df
+
+def tokenize_java_code(code):
+    """Tokenizes Java code and returns a list of meaningful tokens."""
+    lexer = JavaLexer()
+    tokens = [t[1] for t in lexer.get_tokens(code) if t[0] not in Token.Text and not t[1].isspace()]
+    return tokens
 
 # N-Gram model class definition
 class NGramModel:
