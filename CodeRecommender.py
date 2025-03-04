@@ -242,7 +242,7 @@ def main():
 
     # Initialize an empty DataFrame to store all methods
     all_methods = pd.DataFrame()
-    x = 4  # Number of repositories to select
+    x = 1  # Number of repositories to select
     random_repos = random.sample(repoList, x)  # Randomly select x repos
 
     for repo in random_repos:  # Adjust range as needed

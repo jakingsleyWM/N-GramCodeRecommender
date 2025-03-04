@@ -41,7 +41,7 @@ This project was implemented using Python 3.11, with compatibility for macOS and
 
 **Run N-Gram:** 
 
-The script takes a corpus of Java methods as input and automatically identifies the best-performing model based on a specific N-value. It then evaluates the selected model on the test set extracted according to the assignment specifications. Since the training corpus differs from both the instructor-provided dataset and my own dataset, I store the results in a file named results\_provided\_model.json to distinguish them accordingly.
+The script takes a corpus of Java methods as input and automatically identifies the best-performing model based on a specific N-value. It then evaluates the selected model on the test set extracted according to the assignment specifications. Since the training corpus differs from both the instructor-provided dataset and my own dataset, I store the results in a file named results\_provided\_model.json to distinguish them accordingly. I have included two sample results, since the runtime is around 30 minutes.
 
 (venv) \~/N-GramCodeRecommender$ python CodeRecommender.py teacher\_data.txt
 
